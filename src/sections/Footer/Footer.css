@@ -1,0 +1,75 @@
+.contact {
+  padding-top: var(--padding-primary);
+  padding-bottom: var(--padding-primary);
+  margin-top: var(--margin-primary);
+  background-color: var(--color-primary);
+  border-top: 20px solid var(--color-darkest) ;
+}
+
+.contact .man-diving{
+  position:absolute ;
+  width: 400px;
+  animation: bouncing 7.5s infinite;
+}
+
+/* Key Frames */
+@keyframes bouncing {
+  0%,
+  100% {
+    transform: translateY(-170px);
+  }
+  50% {
+    transform: translateY(-140px);
+  }
+}
+
+.contact .info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.contact span {
+  color: var(--color-secondary);
+}
+.contact .email {
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.contact .email p {
+  font-size: 30px;
+}
+.contact .information{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact .Social-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.footer {
+  background-color: var(--color-darkest);
+  color: var(--color-light);
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer span {
+  font-weight: bold;
+  color: var(--color-light);
+}

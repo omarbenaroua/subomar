@@ -1,0 +1,5 @@
+.main-container{
+    padding: var(--padding-primary);
+    position: relative;
+    z-index: 1;
+}

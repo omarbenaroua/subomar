@@ -1,0 +1,6 @@
+.services{
+    position: relative;
+    padding: var(--padding-primary) ;
+    margin: -100px 0 -20px;
+    box-shadow: 0px 0px 20px 20px var(--color-light);
+}

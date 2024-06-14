@@ -1,0 +1,49 @@
+.clubs-card {
+    border: hidden;
+}
+
+.clubs-card .card-body {
+    background-color: var(--color-primary);
+}
+
+.clubs-card .location-icon {
+    position: relative;
+    margin: 0 8px;
+    bottom: 5px;
+    width: 25px;
+}
+
+.clubs-card .clubs-text {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.clubs-card .clubs-title {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    right: 8px
+}
+
+
+@media (max-width: 992px) {
+    .clubs-card .clubs-text {
+        font-size: 20px;
+    }
+
+    .clubs-card .clubs-title {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .clubs-card .clubs-text {
+        font-size: 15px;
+    }
+
+    .clubs-card .clubs-title {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,20 @@
+.gallery {
+    padding-top: var(--padding-primary);
+    padding-bottom: calc(var(--margin-primary)* 3);
+    margin: var(--margin-primary);
+}
+.gallery .image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.img-gallery{
+    position: absolute;
+    width: 300px;
+}
+.camera{
+    position:absolute ;
+    width: 250px;
+    transform: translateY(-130px);
+    right: 100px;
+}

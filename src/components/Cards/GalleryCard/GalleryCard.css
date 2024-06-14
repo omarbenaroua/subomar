@@ -1,0 +1,48 @@
+.box {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 50px var(--color-darkest);
+  }
+  .box:hover .caption {
+    bottom: 0;
+  }
+  .box:hover img {
+    transform: rotate(3deg) scale(1.1);
+  }
+  @media (min-width: 768px) {
+    .image.box {
+      flex-basis: 50%;
+    }
+  }
+  @media (min-width: 1199px) {
+    .box {
+      flex-basis: 25%;
+    }
+  }
+  .box img {
+    max-width: 100%;
+    transition: 0.3s;
+  }
+  .box .caption {
+    position: absolute;
+    padding: calc(var(--padding-primary)/3);
+    color: var(--color-darkest);
+    background-color: var(--color-transparent);
+    width: 100%;
+    height: 65px;
+    transition: 0.3s;
+    bottom: -100%;
+  }
+  .box .caption .location-icon{
+    position: relative;
+    margin: 0 8px;
+    bottom: 5px;
+    width: 25px;
+  }
+  .box .caption h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .box .caption p {
+    color: var(--color-darkest);
+  }

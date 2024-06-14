@@ -1,0 +1,15 @@
+.clubs {
+    padding-top: calc(var(--padding-primary)*2);
+    margin: var(--margin-primary);
+}
+
+.clubs .rafting {
+    position: absolute;
+    width: 250px;
+    transform: translateY(-130px);
+    left: 80px;
+}
+
+.clubs .card-group {
+    box-shadow: 10px 10px 50px var(--color-darkest);
+}

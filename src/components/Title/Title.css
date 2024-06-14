@@ -1,0 +1,35 @@
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px auto 50px;
+  padding: var(--padding-primary);
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  text-shadow: 5px 5px 5px var(--color-light), 5px 5px 5px var(--color-primary), 5px 5px 5px var(--color-darkest);
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+.title::before {
+  content: "";
+  background-color: var(--color-secondary);
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  right: 2px;
+  top: 80%;
+  z-index: -1;
+  box-shadow: 5px 5px 5px var(--color-darkest);
+}

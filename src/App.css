@@ -1,0 +1,38 @@
+:root {
+  --color-darkest: rgb(47, 47, 47);
+  --color-light: rgba(199, 199, 199);
+  --color-primary: rgb(72, 182, 209);
+  --color-secondary: rgb(230, 250, 48);
+  --color-transparent: rgba(24, 228, 255, 0.507);
+
+  --color-bg-body: var(--color-light);
+
+  --distance-primary: 50px;
+  --padding-primary: var(--distance-primary);
+  --margin-primary: var(--distance-primary);
+  --border-radius-primary: calc(var(--distance-primary) / 2);
+
+  --fout-family-primary: 'Poppins', sans-serif;
+  --fout-weight-bold: 900;
+  --fout-weight-normal: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  background-color: var(--color-bg-body);
+  font-size: var(--fout-family-primary);
+}
+
+body a {
+  text-decoration: none;
+  color: var(--color-darkest);
+}
+
+body i {
+  color: var(--color-light);
+}
+
+body li {
+  text-decoration: none;
+}

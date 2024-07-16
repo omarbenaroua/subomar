@@ -1,7 +1,6 @@
 import "./Clubs.css";
 import { ClubsCard, Title } from "../../components/index";
 import ClubsData from "../../Data/ClubsData"
-import img from "../../assets/icons/rafting.png"
 
 
 const Clubs = () => {
@@ -19,7 +18,6 @@ const Clubs = () => {
     <>
       <Title>Clubs position</Title>
       <div className="clubs">
-      <img className="rafting" src={img} alt="" />
         <div className="card-group">
           {clubsInfo}
         </div>

@@ -21,7 +21,7 @@ const Equipment = () => {
     <>
       <Title>Equipment</Title>
       <div className="equipment" id="equipment">
-      <div className="row row-cols-1 row-cols-md-4 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
         {infoEquipment}
       </div>
       </div>

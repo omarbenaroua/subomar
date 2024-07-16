@@ -1,11 +1,9 @@
 .gallery {
-    padding-top: var(--padding-primary);
-    padding-bottom: calc(var(--margin-primary)* 3);
-    margin: var(--margin-primary);
+    margin: calc(var(--margin-primary)* 4);
 }
 .gallery .image {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;gap: 10px;
     margin-top: 60px;
 }
 .img-gallery{
@@ -14,7 +12,7 @@
 }
 .camera{
     position:absolute ;
-    width: 250px;
+    width: 200px;
     transform: translateY(-130px);
     right: 100px;
 }

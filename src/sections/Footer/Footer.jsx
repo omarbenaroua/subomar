@@ -20,8 +20,7 @@ const Footer = () => {
     
     
       <div className="contact">
-        <img className="man-diving" src={man} alt="" />
-        <div className="info row row-cols-1 row-cols-md-2 g-4">
+        <div className="info row row-cols-1">
 
           <div className="icon">
             <FooterLogo />
@@ -42,10 +41,11 @@ const Footer = () => {
             <h1>Follow us and contact us<span>:</span></h1>
             <Social />
           </div>
+
         </div>
       </div>
       <div className="footer">
-        &copy;2022 <span>Omar Ben Aroua</span>
+        &copy;2023 <span>Omar Ben Aroua</span>
       </div>
     </>
   );

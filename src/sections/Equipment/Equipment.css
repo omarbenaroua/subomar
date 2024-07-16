@@ -2,6 +2,9 @@
     padding-top: var(--padding-primary);
     padding-bottom: var(--padding-primary);
     margin-top: var(--margin-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 992px) {

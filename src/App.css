@@ -22,6 +22,7 @@
 body {
   background-color: var(--color-bg-body);
   font-size: var(--fout-family-primary);
+  cursor: url('./assets/icons/click.png'), auto;
 }
 
 body a {

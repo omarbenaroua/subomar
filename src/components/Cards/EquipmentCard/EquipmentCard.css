@@ -3,7 +3,7 @@
     border:1px solid var(--color-darkest);
     display: flex;
     align-items: center;
-    border: 5px solid var(--color-darkest);
+    border: none;
 }
 .equipment-card .card-title{
     display: flex;
